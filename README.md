@@ -23,7 +23,7 @@ Em seguida, realizar os seguintes procedimentos:
 
 31/10/2019
 
-Adicionado todos os dados da página através de API.
+Adicionado todos os dados principais da página através de API.
 
 
 Qualquer dúvida estou a disposição,
