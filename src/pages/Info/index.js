@@ -29,7 +29,10 @@ export default function Info() {
             <h3>{obrigacao.title}</h3>
             <div id="circulocinza">
               <div id="quadradobranco">
-                <Percentual backgroundColor={percentColor(20)} height={20}>
+                <Percentual
+                  backgroundColor={percentColor(obrigacao.percentual)}
+                  height={obrigacao.percentual}
+                >
                   <div id="grafico" />
                 </Percentual>
               </div>

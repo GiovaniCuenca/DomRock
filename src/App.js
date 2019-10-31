@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import GlobalStyle from './styles/global';
 import { Header, Container, Conteudo, Obrigacoes } from './styles/styles';
 import logo from './images/logo.jpg';
 
 import Info from './pages/Info';
+import { getCurrentDate } from './util/getDate';
+
+import api from './services/api';
 
 function App() {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    async function loadUsers() {
+      const response = await api.get('users');
+
+      const data = response.data.map(user => ({
+        ...user,
+      }));
+
+      setUsers(data);
+    }
+
+    loadUsers();
+  }, []);
+
   return (
     <>
       <Header>
@@ -21,10 +40,12 @@ function App() {
         <div id="dir">
           <Conteudo>
             <header id="cabecalho">
-              <span id="recepcao">
-                Olá <strong>Giovani Cuenca</strong>, bem vindo a Dom Rock
-              </span>
-              <span id="data">Campinas, 30 de outubro de 2019</span>
+              {users.map(user => (
+                <span id="recepcao" key={user.id}>
+                  Olá <strong>{user.name}</strong>, bem vindo a Dom Rock
+                </span>
+              ))}
+              <span id="data">{getCurrentDate()}</span>
             </header>
             <header id="tituloDash">
               <span>Dashboard das Obrigações</span>

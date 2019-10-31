@@ -1,4 +1,11 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "Giovani Cuenca"
+    }
+  ],
+
   "obrigacoes": [
     {
       "id": 1,
@@ -10,19 +17,19 @@
       "id": 2,
       "title": "Obrigações validadas no PVA",
       "info": "25 de 116",
-      "percentual": 40
+      "percentual": 80
     },
     {
       "id": 3,
       "title": "Relatórios e verificações",
       "info": "25 de 116",
-      "percentual": 20
+      "percentual": 55
     },
     {
       "id": 4,
       "title": "Obrigações transmitidas",
       "info": "25 de 116",
-      "percentual": 20
+      "percentual": 45
     }
   ]
 }
