@@ -11,25 +11,166 @@
       "id": 1,
       "title": "Obrições Geradas",
       "info": "25 de 116",
-      "percentual": 20
+      "percentual": [
+        {
+          "spedfiscal": [
+            {
+              "2019": [
+                {
+                  "outubro": 20,
+                  "novembro": 50
+                }
+              ],
+              "2018": [
+                {
+                  "outubro": 60,
+                  "novembro": 70
+                }
+              ]
+            }
+          ],
+          "contabilidade": [
+            {
+              "2019": [
+                {
+                  "outubro": 55,
+                  "novembro": 80
+                }
+              ],
+              "2018": [
+                {
+                  "outubro": 90,
+                  "novembro": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]  
     },
+    
     {
       "id": 2,
       "title": "Obrigações validadas no PVA",
       "info": "25 de 116",
-      "percentual": 80
+      "percentual": [
+        {
+          "spedfiscal": [
+            {
+              "2019": [
+                {
+                  "outubro": 20,
+                  "novembro": 50
+                }
+              ],
+              "2018": [
+                {
+                  "outubro": 60,
+                  "novembro": 70
+                }
+              ]
+            }
+          ],
+          "contabilidade": [
+            {
+              "2019": [
+                {
+                  "outubro": 55,
+                  "novembro": 80
+                }
+              ],
+              "2018": [
+                {
+                  "outubro": 90,
+                  "novembro": 10
+                }
+              ]
+            }
+          ]
+        }
+      ] 
     },
     {
       "id": 3,
       "title": "Relatórios e verificações",
       "info": "25 de 116",
-      "percentual": 55
+      "percentual": [
+        {
+          "spedfiscal": [
+            {
+              "2019": [
+                {
+                  "outubro": 20,
+                  "novembro": 50
+                }
+              ],
+              "2018": [
+                {
+                  "outubro": 60,
+                  "novembro": 70
+                }
+              ]
+            }
+          ],
+          "contabilidade": [
+            {
+              "2019": [
+                {
+                  "outubro": 55,
+                  "novembro": 80
+                }
+              ],
+              "2018": [
+                {
+                  "outubro": 90,
+                  "novembro": 10
+                }
+              ]
+            }
+          ]
+        }
+      ] 
     },
     {
       "id": 4,
       "title": "Obrigações transmitidas",
       "info": "25 de 116",
-      "percentual": 45
+      "percentual": [
+        {
+          "spedfiscal": [
+            {
+              "2019": [
+                {
+                  "outubro": 20,
+                  "novembro": 50
+                }
+              ],
+              "2018": [
+                {
+                  "outubro": 60,
+                  "novembro": 70
+                }
+              ]
+            }
+          ],
+          "contabilidade": [
+            {
+              "2019": [
+                {
+                  "outubro": 55,
+                  "novembro": 80
+                }
+              ],
+              "2018": [
+                {
+                  "outubro": 90,
+                  "novembro": 10
+                }
+              ]
+            }
+          ]
+        }
+      ] 
     }
   ]
 }
