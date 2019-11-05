@@ -5,6 +5,7 @@ import { Header, Container, Conteudo, Obrigacoes } from './styles/styles';
 import logo from './images/logo.jpg';
 
 import Info from './pages/Info';
+import Footer from './pages/Footer';
 import { getCurrentDate } from './util/getDate';
 
 import api from './services/api';
@@ -75,6 +76,7 @@ function App() {
           </Conteudo>
         </div>
       </Container>
+      <Footer />
       <GlobalStyle />
     </>
   );

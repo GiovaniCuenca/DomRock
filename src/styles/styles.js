@@ -24,10 +24,12 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   height: 800px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 
   #esq {
     background: #11456b;
-    width: 90px;
+    min-width: 5%;
+    width: 10%
     border-right: 1px solid #5295bc;
   }
 
